@@ -1,0 +1,109 @@
+.login{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login .head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(255,225,65) ;
+}
+.login .head .bhome:hover{
+    background-color:  rgba(145, 126, 23, 0.397);
+}
+.login .head .licon{
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login .head .licon img{
+    height: 100%;
+}
+
+.login .head .bhome{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width:90px;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 100%;
+    margin-left: 20px;
+}
+.login .outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 500px;
+    outline: 1px solid gray;
+}  
+.login .outer .tlogin{
+    width: 100%;
+    border-radius: 10px 10px 0 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 20px;
+font-weight: bolder;
+background-color: rgb(255,225,65);
+color: rgb(69,146,32);
+}   
+
+.login .outer .tname{
+    margin:10px;
+}
+.login .outer .tname .tt{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login .outer .tname .linput input{
+width:400px;
+padding: 8px;
+outline: 1px solid lightgray;
+border-radius: 10px;
+border: 1px solid lightgray;
+}
+.login .outer .pname{
+    margin:10px;
+}
+.login .outer .pname .tt{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.login .outer .pname .pinput input{
+width:400px;
+padding: 8px;
+outline: 1px solid lightgray;
+border-radius: 10px;
+border: 1px solid lightgray;
+}
+ .login .outer .lbtn{
+     margin: 15px;
+ }
+ .login .outer .lbtn button{
+     cursor: pointer;
+     color: rgb(69,146,32);
+     font-size: large;
+     font-weight:bolder ;
+    background-color: rgb(255,225,65);
+     border-radius: 10px;
+     padding: 5px;
+     width: 400px;
+ }
+ .login .outer .stt{
+     font-size: larger;
+     font-weight: bolder;
+ }

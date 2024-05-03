@@ -1,0 +1,35 @@
+.breakfastprod{
+    height:250px;
+    width:150px;
+    border-radius: 8px;
+    outline: 1px solid lightgrey;
+    margin-right: 20px;
+    margin-left: 15px;
+    position: relative;
+}
+.headerbreakfast{
+    height: 60%;
+    border-bottom:1px solid lightgray ;
+}
+.breakfastprod .breakbtn{
+    position: absolute;
+    right:5px;
+    bottom:100px;
+}
+.breakfastprod .breakbtn button{
+    cursor: pointer;
+}
+.headerbreakfast img{
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+.breakfastprod .breakweight{
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.breakfastprod .breakname{
+    margin-top: 10px;
+    cursor: pointer;
+}

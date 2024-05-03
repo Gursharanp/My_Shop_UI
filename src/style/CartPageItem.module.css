@@ -1,0 +1,114 @@
+.content .arr{
+    justify-content: center;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.head{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color:rgb(255,225,65) ;
+}
+.head .bhome:hover{
+    background-color:  rgba(145, 126, 23, 0.397);
+}
+.head .licon{
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.head .licon img{
+    height: 100%;
+}
+.head .bhome{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width:90px;
+    font-size: 25px;
+    font-weight: bolder;
+    height: 100%;
+    margin-left: 20px;
+}
+.cpage .cartItem{
+margin-top: 50px;
+width: 400px;
+margin-left: 20px;
+height: 220px;
+border:1px solid gray;
+border-radius: 10px;
+display: flex;
+
+}
+ .cpage .cartItem .img{
+     margin: 10px;
+     margin-right: 20px;
+     outline: 1px solid gray;
+width:150px;
+height: 200px;
+border-radius: 10px;
+
+ }
+ .cpage .cartItem .img img{
+     width: 90%;
+     height: 90%;
+ }
+ .cpage .cartItem .cwrapper{
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ 
+ .cpage .cartItem .cwrapper .name{
+     font-size: 20px;
+     font-weight: bold;
+     margin-bottom: 10px;
+ }
+
+ .cpage .cartItem .cwrapper .price{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: gray;
+}
+.cpage .cartItem .button{
+    display: flex;
+    margin-left: 20px;
+}
+
+.cpage .cartItem .button button{
+    background-color:rgb(255,225,65) ;
+    border: none;
+    border: 1px solid gray;
+}
+
+.cpage .cartItem .button .b1{
+    margin-right: 10px;
+    width:50px;
+    font-size: larger;
+   border-radius: 8px; 
+}
+
+.cpage .cartItem .button div{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.cpage .cartItem .button .b2 {
+    margin-right: 10px;
+    width:50px;
+    font-size: larger;
+   border-radius: 8px; 
+}
+.cpage .cartItem .b3 {
+    margin-top: 30px;
+    /* width:50px; */
+    font-size: larger;
+   border-radius: 8px;
+   background-color:rgb(255,225,65) ;
+    border: none;
+    border: 1px solid gray; 
+}
